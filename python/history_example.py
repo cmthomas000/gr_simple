@@ -26,7 +26,10 @@ class history_example(gr.basic_block):
     """
     docstring for block history_example
     """
+<<<<<<< HEAD
 
+=======
+>>>>>>> 99e4cbdef5019ffbbcfae9b37fd0cef36dd736ea
     def __init__(self, history):
         gr.basic_block.__init__(self,
             name="history_example",
@@ -53,6 +56,10 @@ class history_example(gr.basic_block):
         print "input: ",input_items[0]
         print "check: ",len(in0)," ",len(output_items[0])
         out = numpy.zeros(len(output_items[0]))
+<<<<<<< HEAD
+=======
+
+>>>>>>> 99e4cbdef5019ffbbcfae9b37fd0cef36dd736ea
         # if(len(in0)==1):
         #     print "meow"
         #     output_items[0] = []
@@ -63,9 +70,15 @@ class history_example(gr.basic_block):
         #     return 0
         # else:
         for idx in range(0,len(out)):
+<<<<<<< HEAD
             if(idx+1 >= len(in0)): # only one input sample left
                 out[idx] = in0[idx]
             else: #pesudo-fibonacci thing; current out is the current in plus previous sample
+=======
+            if(idx+1 >= len(in0)):
+                out[idx] = in0[idx]
+            else:
+>>>>>>> 99e4cbdef5019ffbbcfae9b37fd0cef36dd736ea
                 out[idx] = in0[idx] + in0[idx+1]
 
 
