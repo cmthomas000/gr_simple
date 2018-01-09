@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.11">
+  <compounddef id="dir_eafe3ca41d31fef95e5f17f17d7afdbe" kind="dir">
+    <compoundname>simple</compoundname>
+    <innerfile refid="api_8h">api.h</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/usr/src/gnuradio/gnuradio/gr-simple/include/simple/"/>
+  </compounddef>
+</doxygen>
